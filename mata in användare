@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace modul_1___minutomvandlare
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Mata in antal minuter: ");
+            int a = int.Parse(Console.ReadLine());
+
+            int b = a / 60;
+            int c = a % 60;
+            Console.WriteLine("Det blir " + b + " timmar och " + c + " minuter");
+
+            Console.ReadLine();
+        }
+    }
+}
